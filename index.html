@@ -4,24 +4,28 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="styles.css">
 	<title>İslam Aydoğmuş</title>
+<style>
+	#more {display: none;}
+	#more2 {display: none;}
+</style>
 </head>
 <body style="font-family:serif;">
+	<img style="padding-top:15px;padding-right: 20px;float: right;"; src="picture.jpg"width=11% height=11%>
 	<div class="header">
-		<div align="right"; style="width: 25%;float: right;padding-top: 15px;padding-right: 20px;">
+		<div align="right"; style="width: 15%;float: right;padding-top: 15px;padding-right: 20px;">
 			<p style="float: left;"> <b>Military Obligation:</b> <br> Postponed(2028) <br> <br> <b>Mariage Status:</b> <br> Single</p>
-			<img style="padding-right: 20px;float: right;"; src="picture.jpg"width=40% height=40%>
 		</div>
 		
 		<h1 class = "title">İslam AYDOĞMUŞ</h1>
 		<h3 style="padding-left:20px;">Junior Robotics Engineer</h3>
 		<p style="padding-left:40px;">Cumhuriyet Mh., Hürriyet Cd. 1982 Sk. Altınyıldız St. C4 Blok No.: 32 <br> İstanbul/Esenyurt <b> • Cell; </b> +90 545 715 07 25</p>
-		<p style="padding-left:40px;line-height: 0px;"><b>Email</b>: <a href="mailto:islamaydogmus@gmail.com">islamaydogmus@gmail.com</a> <b>Linkedin</b>: <a href="https://www.linkedin.com/in/islamaydoğmuş/">https://www.linkedin.com/in/islamaydoğmuş</a></p>
-		<br>
+		<p style="padding-left:40px;padding-bottom:0px;padding-top:0px;line-height: 0px;"><img style="padding-top:0px;padding-right: 0px;"; src="Gmail-Logo.png"width=20px height=13px><b>E-mail:</b> <a href="mailto:islamaydogmus@gmail.com">islamaydogmus@gmail.com</a></p>
+		<p style="padding-left:40px;padding-bottom:0px;padding-top:0px;line-height: 0px;"><img style="padding-top:0px;padding-right: 3px;padding-left: 3px;"; src="Linkedin-Logo.png"width=15px height=15px><b>Linkedin:</b> <a href="https://www.linkedin.com/in/islamaydoğmuş/">https://www.linkedin.com/in/islamaydoğmuş</a></p>
 		<hr>
 	</div>
 	<! --- Main body --->
 	<h2>SUMMARY</h2>
-	<p style="padding-right: 300px"> &ensp An excited individual about potential of robotics. Aiming to become a Robotics Software
+	<p style="padding-right: 300px"> &nbsp; &nbsp; &nbsp; An excited individual about potential of robotics. Aiming to become a Robotics Software
 		Engineer in R&D departments of the leading companies. Wants to gain first-hand experience on building
 		applications and designing robots in Robotic R&D. Desires to experience implementing machine
 		learning and machine vision on robots. Tries to share his technical skills and passion with his workplace
@@ -37,6 +41,7 @@
 			from scrap by me in PyGame
 			library.
 			</p>
+			<a href="https://github.com/islamaydogmus/logging-circular-motion-in-plane">Source Code</a>
 		</div>
 		<div class="column"><h3 class="project-h"> • Glassdoor Salary Scrapper (via bs4)</h3>
 			<p class = "project-p">• Project that I did to fetch the
@@ -50,24 +55,133 @@
 			and Beatifulsoup4 web scraping
 			libraries of Python. 
 			</p>
+			<a href="https://github.com/islamaydogmus/Glassdoor-Salary-Scrapper">Source Code</a>
 		</div>
 		<div class="column"><h3 class="project-h"> • PyGame Character Movement (OOP Practice)</h3>
-	<p class = "project-p">• I started this code piece just
-		because I wanted to deepen my
-		OOP understanding. It made me
-		realize why programmers often
-		use OOP over functional
-		programming.
-		</p></div>
+		<p class = "project-p">• I started this code piece just
+			because I wanted to deepen my
+			OOP understanding. It made me
+			realize why programmers often
+			use OOP over functional
+			programming.
+			</p>
+			<a href="https://github.com/islamaydogmus/Pygame-Character-Movement">Source Code</a>
+		</div>
+
 	</div>
+	<button style="margin-left: 20px;"onclick="myFunction();myFunction2();" id="myBtn">Show more</button>
+	<br>
+
+	<div class="row">
+		<span id="dots"></span><span id="more">
+		<div class="column"><h3 class="project-h"> • Jumping Robot</h3>
+			<p class = "project-p">• Final project of our "Mechanism Design I" course.
+				I successfully calculated the breaking point and dynamic behaviour of the mechanism.
+				Sadly mechanism didn't jump but designs were solid.
+			</p>
+			<a href="Jumping Robot.pdf">Report</a>
+		</div>
+		<div class="column"><h3 class="project-h"> • Automatic Opening Garage Door System</h3>
+			<p class = "project-p">• Garage door opening system
+				based on outside ldr sensor.
+				Logic circuitry is constructed
+				from logic gate. Garage door
+				was capable of opening and
+				waiting 5 after hitting end
+				switch. It was also capable of
+				detecting movement while door
+				closing by infrared sensor.
+			</p>
+		</div>
+		<div class="column"><h3 class="project-h"> • Obstacle Avoiding Mobile Robot </h3>
+		<p class = "project-p">• An Arduino driven vehicle
+			that changes its direction based
+			on 3 ultrasound sensors that has
+			been placed by 90°. I wrote all the logic algorithms in Arduino IDE.
+			<br>
+			<br>
+			<br>
+			<br>
+		</p>
+	</div>
+	</span>
+
+	<br>
+
+	<div class="row">
+		<span id="dots2"></span><span id="more2">
+		<div class="column"><h3 class="project-h"> • IMDB Rating vs Year Analysis </h3>
+			<p class = "project-p"> • I made this project to prove my assumption of "older films get more positive rating than recent films".
+				Some may call it "Retrophilia". I scrapped all the film data from IMDB website, cleaned since there was multiples of some of the
+				films and then ploted its graph against year that film released to check if there was any correalation but sadly I couldn't 
+				prove my assumption.
+			</p>
+			<a href="https://github.com/islamaydogmus/IMDB-year-vs.-rating-graph">Results</a>
+		</div>
+		
+		<div class="column"><h3 class="project-h"> • Human Machine Interface with remote control your via motion of your body parts </h3>
+			<p class = "project-p">• This is a modification of our obstacle avoiding robot. We implimented a gyroscopic controller to 
+				drive our car with the motion of our body parts. A reciever and a transmitter constructed. 
+			</p>
+		</div>
+		
+		<div class="column"><h3 class="project-h"> • Sentiment Classifier (Lexicon based) </h3>
+		<p class = "project-p"> • Sentiment classifier I made
+			using the data that University of
+			Michigan supplied through the
+			Coursera Python Course.
+			Project showed that Positive
+			Sentiment of a tweet increases
+			its retweet potential.
+		</p>
+		<a href="https://github.com/islamaydogmus/Sentiment-Classifier">Source Code</a>
+	</div>
+	</span>
+
+	
+
+	<script>
+		function myFunction() {
+		var dots = document.getElementById("dots");
+		var moreText = document.getElementById("more");
+		var btnText = document.getElementById("myBtn");
+		
+		if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = "Show more"; 
+			moreText.style.display = "none";
+		} else {
+			moreText.style.display = "inline";
+			dots.style.display = "none";
+			btnText.innerHTML = "Show less"; 
+		}
+		}
+
+		function myFunction2() {
+		var dots = document.getElementById("dots2");
+		var moreText = document.getElementById("more2");
+		var btnText = document.getElementById("myBtn");
+		
+		if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			moreText.style.display = "none";
+		} else {
+			moreText.style.display = "inline";
+			dots.style.display = "none";
+		}
+		}
+	</script>
+
+</div>
+
 	<h2>EXPERIENCE</h2>
 	<p class="date">2021 August</p>
 	<div class="education">
 		<p class="location"> Yenimahalle/Ankara</p>
 		<h2>ARYASİS MAKİNA, <br>
 			DEFENCE AND AEROSPACE</h2>
-		<p style="padding-top:0px;">Engineering Internship (Machining)</p>
-		<p style="padding-right: 300px"> • Aryasis Makina serves to the leading defense and aerospace companies of the
+		<p style="padding-top:0px;margin-top: 0px;">Engineering Internship (Machining)</p>
+		<p style="padding-right: 300px;margin-top: 0px;padding-top:0px;"> • Aryasis Makina serves to the leading defense and aerospace companies of the
 			Turkey such as ASELSAN and TAI. Company produces preordered parts by
 			machining. Interns, including myself, learn about the progress of manufacturing by
 			observing CAM and CNC operation processes.</p>
@@ -78,15 +192,15 @@
 		<p class="location"> Çiğli/İzmir</p>
 		<h2>İZMİR KÂTİP ÇELEBİ UNIVERSITY, <br>
 			ENGINEERING DEPARTMENT</h2>
-		<p style="padding-top:0px;">Mechatronics Engineering (Bachelor’s Degree)</p>
-		<p style="padding-right: 300px"> • GPA by the end of 5th Semester: 3.12/4.0</p>
+		<p style="margin-top: 0px;padding-top:0px;">Mechatronics Engineering (Bachelor’s Degree)</p>
+		<p style="padding-right: 300px;margin-top: 0px;padding-top:0px;"> • GPA by the end of 5th Semester: 3.12/4.0</p>
 	</div>
 	<p class="date">2015 - 2019 </p>
 	<div class="education">
 		<p class="location"> Esenyurt/İstanbul</p>
 		<h2>KIRAÇ ANATOLIAN HIGH SCHOOL</h2>
-		<p style="padding-top:0px;">Science</p>
-		<p style="padding-right: 300px"> • Graduated by 79.89% <br>
+		<p style="padding-top:0px;margin-top: 0px;">Science</p>
+		<p style="padding-right: 300px;margin-top: 0px;padding-top:0px;"> • Graduated by 79.89% <br>
 			• School Chess Competition 3rd place.</p>
 	</div>
 	<h2>CERTIFICATES</h2>
@@ -117,17 +231,21 @@
 		<p> <b>Language Skills:</b> • English (Advanced), • Turkish (Main Language),
 			• Japanese (Beginner), • German (Beginner)
 		   </p>
-		<p><b>Computer Skills:</b>• Ms Office Word, • Ms Office Excel, • Adobe Photoshop</p>
-		<p><b>Engineering Tools:</b>• Solidworks (Advanced), • Siemens NX (Just Solid Modelling)
+		<p><b>Computer Skills:</b> • Ms Office Word, • Ms Office Excel, • Adobe Photoshop</p>
+		<p><b>Engineering Tools:</b> • Solidworks (Advanced), • Siemens NX (Just Solid Modelling)
 			• Proteus
 		   </p>
-		<p><b>Programming Languages:</b>• C++/C (Intermediate), • Python (Advanced),
+		<p><b>Programming Languages:</b> • C++/C (Intermediate), • Python (Advanced),
 			• Matlab (Intermediate), • Mathematica (Beginner)</p>
-		<p><b>Sector Knowledge:</b>• CAD, • Robotic Dynamics, • Sensors and Actuators,
+		<p><b>Sector Knowledge:</b> • CAD, • Robotic Dynamics, • Sensors and Actuators,
 			• Signal Processing, • System Modelling, • Machine Learning, • Python Data
 			Analysis, • Logic Circuit Design
 		   </p>
-		<p><b>Hobies:</b> • Chess, • Tracking, • History</p>
+		<p><b>Hobies:</b> • Chess, • Natural Sciences, • History</p>
 	</div>
 </body>
+<footer>
+	<hr>
+	<h4 style="padding-right:20px ;">İslam AYDOĞMUŞ</h4>
+</footer>
 </html>

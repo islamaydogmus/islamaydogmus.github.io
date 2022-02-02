@@ -63,3 +63,8 @@ p{
 li{
     font-size: 18px;
 }
+footer{
+  text-align: right;
+  padding: 3px;
+  background-color: rgb(253, 253, 253);
+}
